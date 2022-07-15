@@ -16,3 +16,12 @@ body {
     box-shadow: 3px 3px 15px#5E0000;
     opacity: 0.5;
 }
+.chataZinjas
+{
+    background: rgb(231, 225, 225);
+    height: 300px;
+    color:red;
+    padding: 5px;
+    overflow-y:scroll;
+
+}
