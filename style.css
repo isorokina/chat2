@@ -3,4 +3,13 @@ body {
 }
 .wrapper {
     background: yellow;
+    width: 500px;
+    height: 500px;
+    border: 2px solid green;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    top:50%; margin-top:-250px;
+    left: 50%; margin-left: -250px;
+    
 }
