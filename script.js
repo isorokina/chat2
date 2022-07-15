@@ -15,5 +15,5 @@ async function ielaadeetChataZinjas()
 let datiNoServera = await fetch('chatazinjas.txt');
 let dati = await datiNoServera.text();
 zinjas.innerHTML = dati;
-//console.log(dati);
+//console.log(dati); pārbaude
 }
