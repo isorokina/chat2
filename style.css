@@ -1,3 +1,6 @@
 body {
-    background: rgb(240, 159, 39);
+    background: url(photo2.jpg);
+}
+.wrapper {
+    background: yellow;
 }
