@@ -17,3 +17,5 @@ let dati = await datiNoServera.text();
 zinjas.innerHTML = dati;
 //console.log(dati); pārbaude
 }
+
+setInterval( ielaadeetChataZinjas, 1000 )
