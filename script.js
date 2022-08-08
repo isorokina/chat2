@@ -39,7 +39,7 @@ i=0;
 while (i<await dati.length)
 {
    console.log(i);
-   zinjas.innerHTML=zinjas.innerHTML+dati[i]['vaards']+':'+dati[i]['zinja']+'/br';
+   zinjas.innerHTML=zinjas.innerHTML+dati[i]['vaards']+':'+dati[i]['zinja']+'<br/>';
    i=i+1;
 }
 
