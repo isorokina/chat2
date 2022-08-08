@@ -33,5 +33,14 @@ async function ielaadeetChataZinjasJson()
 {
 let datiNoServera = await fetch(API+'/lasiit');
 let dati = await datiNoServera.json();
-console.log(await dati)
+
+i=0;
+while (i<5)
+{
+   console.log(i);
+   i=i+1;
+}
+
+
+//console.log(await dati)
 }
