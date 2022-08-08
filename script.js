@@ -19,9 +19,19 @@ async function ielaadeetChataZinjas()
 {
    let datiNoServera = await fetch(API+'/lasiit');
 ///let datiNoServera = await fetch('chatazinjas.txt');
+///let dati = await datiNoServera.text();
 let dati = await datiNoServera.text();
 zinjas.innerHTML = dati;
 //console.log(dati); pārbaude
 }
 
-setInterval( ielaadeetChataZinjas, 1000 )//ielādē katru 1 sek
+
+
+//setInterval( ielaadeetChataZinjas, 1000 )//ielādē katru 1 sek
+
+async function ielaadeetChataZinjasJson()
+{
+let datiNoServera = await fetch(API+'/lasiit');
+let dati = await datiNoServera.json();
+console.log(await dati)
+}
