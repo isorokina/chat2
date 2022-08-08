@@ -9,7 +9,7 @@ let zinjas = document.querySelector('.chataZinjas');
 
 function suutiitZinju()
 {
-   // console.log('Suutiit'); pārbaude
+   console.log('Suutiit ziņu darbojās'); // pārbaude
    zinjas.innerHTML=zinjas.innerHTML+'<br />'+zinja.value;
    fetch(API+'/suutiit/Janka/'+zinja.value)
 }
