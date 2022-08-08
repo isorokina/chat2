@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 ///const API="https://chat21.ijasorokina2.repl.co"
 const API="https://chat2newkursi.ijasorokina2.repl.co"
 >>>>>>> f8951b0807a473fc4a8178eda63b8522dafbe1a1
