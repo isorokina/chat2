@@ -6,12 +6,13 @@ const API="https://chat2newkursi.ijasorokina2.repl.co"
 
 let zinja = document.querySelector('.manaZinja');
 let zinjas = document.querySelector('.chataZinjas');
+let vaards = document.querySelector('.vaards');
 
 function suutiitZinju()
 {
    console.log('Suutiit ziņu darbojās'); // pārbaude
    zinjas.innerHTML=zinjas.innerHTML+'<br />'+zinja.value;
-   fetch(API+'/suutiit/Janka/'+zinja.value)
+   fetch(API+'/suutiit/'+vaards+'/'+zinja.value)
 }
 
 async function ielaadeetChataZinjas()
