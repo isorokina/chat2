@@ -11,6 +11,7 @@ function suutiitZinju()
 {
    // console.log('Suutiit'); pārbaude
    zinjas.innerHTML=zinjas.innerHTML+'<br />'+zinja.value;
+   //fetch(API+'/suutiit/Janka/'+zinja.value)
 }
 
 async function ielaadeetChataZinjas()
