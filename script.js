@@ -1,7 +1,6 @@
 
 ///const API="https://chat21.ijasorokina2.repl.co"
 const API="https://chat2newkursi.ijasorokina2.repl.co"
-
 let zinja = document.querySelector('.manaZinja');
 let zinjas = document.querySelector('.chataZinjas');
 
