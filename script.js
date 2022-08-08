@@ -1,4 +1,3 @@
-const API="https://chat21.ijasorokina2.repl.co"
 //alert(1)
 //console.log(1)
 
@@ -13,11 +12,10 @@ function suutiitZinju()
 
 async function ielaadeetChataZinjas()
 {
-let datiNoServera = await fetch(API+'/lasiit');
-/*let datiNoServera = await fetch('chatazinjas.txt');*/
+let datiNoServera = await fetch('chatazinjas.txt');
 let dati = await datiNoServera.text();
 zinjas.innerHTML = dati;
 //console.log(dati); pārbaude
 }
 
-setInterval( ielaadeetChataZinjas, 1000 )
+setInterval( ielaadeetChataZinjas, 1000 )//ielādē katru 1 sek
