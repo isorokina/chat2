@@ -12,7 +12,7 @@ function suutiitZinju()
 {
    console.log('Suutiit ziņu darbojās'); // pārbaude
    zinjas.innerHTML=zinjas.innerHTML+'<br />'+zinja.value;
-   fetch(API+'/suutiit/'+vaards+'/'+zinja.value)
+   fetch(API+'/suutiit/'+vaards.value+'/'+zinja.value)
 }
 
 async function ielaadeetChataZinjas()
