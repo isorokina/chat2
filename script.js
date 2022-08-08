@@ -43,7 +43,7 @@ while (i<await dati.length)
    i=i+1;
 }
 
-
+zinjas.scrollTop=zinjas.scrollHeight;
 
 //console.log(await dati)
 }//šeit beidzāš ielaadeetChataZinjasJson()
