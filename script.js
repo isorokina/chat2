@@ -38,7 +38,7 @@ zinjas.innerHTML='';
 i=0;
 while (i<await dati.length)
 {
-   console.log(i);
+   //console.log(i);
    zinjas.innerHTML=zinjas.innerHTML+dati[i]['vaards']+':'+dati[i]['zinja']+'<br/>';
    i=i+1;
 }
@@ -47,3 +47,4 @@ while (i<await dati.length)
 
 //console.log(await dati)
 }//šeit beidzāš ielaadeetChataZinjasJson()
+setInterval(ielaadeetChataZinjasJson,1000)
