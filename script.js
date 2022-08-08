@@ -35,7 +35,7 @@ let datiNoServera = await fetch(API+'/lasiit');
 let dati = await datiNoServera.json();
 
 i=0;
-while (i<5)
+while (i<await dati.length)
 {
    console.log(i);
    i=i+1;
