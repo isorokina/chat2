@@ -1,4 +1,5 @@
-const API="https://chat21.ijasorokina2.repl.co"
+///const API="https://chat21.ijasorokina2.repl.co"
+const API="https://chat2newkursi.ijasorokina2.repl.co"
 //alert(1)
 //console.log(1)
 
