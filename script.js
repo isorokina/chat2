@@ -25,7 +25,7 @@ zinjas.innerHTML = dati;
 //console.log(dati); pārbaude
 }
 
-
+//proba
 
 //setInterval( ielaadeetChataZinjas, 1000 )//ielādē katru 1 sek
 
